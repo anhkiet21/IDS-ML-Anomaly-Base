@@ -1,0 +1,129 @@
+{
+  "constant_features": [],
+  "duplicate_columns": [],
+  "near_constant_features": [
+    {
+      "Feature": "RST Flag Count",
+      "Dominant Value": 0.0,
+      "Dominant %": 99.98318937758079
+    },
+    {
+      "Feature": "ECE Flag Count",
+      "Dominant Value": 0.0,
+      "Dominant %": 99.98295260825094
+    }
+  ],
+  "highly_correlated_pairs": [
+    {
+      "Feature A": "Flow Duration",
+      "Feature B": "Fwd IAT Total",
+      "Correlation": 0.9976520034495026
+    },
+    {
+      "Feature A": "Flow Duration",
+      "Feature B": "Bwd IAT Total",
+      "Correlation": 0.9720755894611556
+    },
+    {
+      "Feature A": "Total Fwd Packets",
+      "Feature B": "Total Backward Packets",
+      "Correlation": 0.9993190172068217
+    },
+    {
+      "Feature A": "Total Fwd Packets",
+      "Feature B": "Total Length of Bwd Packets",
+      "Correlation": 0.999375856532347
+    },
+    {
+      "Feature A": "Total Fwd Packets",
+      "Feature B": "act_data_pkt_fwd",
+      "Correlation": 0.9995001044330799
+    },
+    {
+      "Feature A": "Total Backward Packets",
+      "Feature B": "Total Length of Bwd Packets",
+      "Correlation": 0.9977784168713216
+    },
+    {
+      "Feature A": "Total Backward Packets",
+      "Feature B": "act_data_pkt_fwd",
+      "Correlation": 0.9994806312073109
+    },
+    {
+      "Feature A": "Total Length of Bwd Packets",
+      "Feature B": "act_data_pkt_fwd",
+      "Correlation": 0.9986759954602534
+    },
+    {
+      "Feature A": "Fwd Packet Length Mean",
+      "Feature B": "Avg Fwd Segment Size",
+      "Correlation": 1.0
+    },
+    {
+      "Feature A": "Bwd Packet Length Mean",
+      "Feature B": "Avg Bwd Segment Size",
+      "Correlation": 1.0
+    },
+    {
+      "Feature A": "Flow Packets/s",
+      "Feature B": "Fwd Packets/s",
+      "Correlation": 0.9902592575207444
+    },
+    {
+      "Feature A": "Flow IAT Max",
+      "Feature B": "Fwd IAT Max",
+      "Correlation": 0.9931826288645984
+    },
+    {
+      "Feature A": "Fwd IAT Total",
+      "Feature B": "Bwd IAT Total",
+      "Correlation": 0.9690496533013657
+    },
+    {
+      "Feature A": "Fwd IAT Mean",
+      "Feature B": "Fwd IAT Min",
+      "Correlation": 0.9747459773101467
+    },
+    {
+      "Feature A": "Bwd IAT Mean",
+      "Feature B": "Bwd IAT Min",
+      "Correlation": 0.9712392674156481
+    },
+    {
+      "Feature A": "Bwd IAT Max",
+      "Feature B": "Idle Max",
+      "Correlation": 0.9525094026076393
+    },
+    {
+      "Feature A": "Max Packet Length",
+      "Feature B": "Packet Length Std",
+      "Correlation": 0.9639583723031757
+    },
+    {
+      "Feature A": "Packet Length Mean",
+      "Feature B": "Average Packet Size",
+      "Correlation": 0.9945306324221658
+    },
+    {
+      "Feature A": "RST Flag Count",
+      "Feature B": "ECE Flag Count",
+      "Correlation": 0.9930300981892932
+    },
+    {
+      "Feature A": "Idle Mean",
+      "Feature B": "Idle Max",
+      "Correlation": 0.9917599362685742
+    },
+    {
+      "Feature A": "Idle Mean",
+      "Feature B": "Idle Min",
+      "Correlation": 0.991413653248856
+    },
+    {
+      "Feature A": "Idle Max",
+      "Feature B": "Idle Min",
+      "Correlation": 0.9676223413162326
+    }
+  ],
+  "policy": "Chỉ khảo sát; không loại thêm feature"
+}

@@ -1,0 +1,185 @@
+{
+  "before": {
+    "full_duplicates": 199,
+    "feature_label_duplicates": 16918,
+    "conflict_groups": 0,
+    "label_conflicts": [],
+    "conflict_policy": "Giữ xung đột; chỉ xóa vector feature + Label giống nhau."
+  },
+  "after": {
+    "full_duplicates": 0,
+    "feature_label_duplicates": 0,
+    "conflict_groups": 0,
+    "label_conflicts": [],
+    "conflict_policy": "Giữ xung đột; chỉ xóa vector feature + Label giống nhau."
+  },
+  "cleanup": {
+    "priority": [
+      "train",
+      "calibration",
+      "selection",
+      "test"
+    ],
+    "within_split_policy": "Giữ hàng đầu theo model features + Label; giữ conflict khác Label trong cùng split.",
+    "cross_split_policy": "Giữ split ưu tiên cao, bỏ vector giống nhau khỏi split ưu tiên thấp bất kể Label; không shuffle hoặc phân chia lại Monday.",
+    "splits": {
+      "train": {
+        "rows_before": 423584,
+        "within_split_duplicates_removed": 1232,
+        "cross_split_rows_removed": 0,
+        "overlap_removals": [],
+        "rows_after": 422352
+      },
+      "calibration": {
+        "rows_before": 105897,
+        "within_split_duplicates_removed": 59,
+        "cross_split_rows_removed": 108,
+        "overlap_removals": [
+          {
+            "overlap_with": "train",
+            "rows_removed": 108,
+            "label_distribution_removed": {
+              "BENIGN": 108,
+              "Bot": 0,
+              "DDoS": 0,
+              "DoS GoldenEye": 0,
+              "DoS Hulk": 0,
+              "DoS Slowhttptest": 0,
+              "DoS slowloris": 0,
+              "FTP-Patator": 0,
+              "Heartbleed": 0,
+              "Infiltration": 0,
+              "PortScan": 0,
+              "SSH-Patator": 0,
+              "Web Attack – Brute Force": 0,
+              "Web Attack – Sql Injection": 0,
+              "Web Attack – XSS": 0
+            }
+          }
+        ],
+        "rows_after": 105730
+      },
+      "selection": {
+        "rows_before": 1595677,
+        "within_split_duplicates_removed": 12860,
+        "cross_split_rows_removed": 94,
+        "overlap_removals": [
+          {
+            "overlap_with": "train",
+            "rows_removed": 64,
+            "label_distribution_removed": {
+              "BENIGN": 64,
+              "Bot": 0,
+              "DDoS": 0,
+              "DoS GoldenEye": 0,
+              "DoS Hulk": 0,
+              "DoS Slowhttptest": 0,
+              "DoS slowloris": 0,
+              "FTP-Patator": 0,
+              "Heartbleed": 0,
+              "Infiltration": 0,
+              "PortScan": 0,
+              "SSH-Patator": 0,
+              "Web Attack – Brute Force": 0,
+              "Web Attack – Sql Injection": 0,
+              "Web Attack – XSS": 0
+            }
+          },
+          {
+            "overlap_with": "calibration",
+            "rows_removed": 30,
+            "label_distribution_removed": {
+              "BENIGN": 30,
+              "Bot": 0,
+              "DDoS": 0,
+              "DoS GoldenEye": 0,
+              "DoS Hulk": 0,
+              "DoS Slowhttptest": 0,
+              "DoS slowloris": 0,
+              "FTP-Patator": 0,
+              "Heartbleed": 0,
+              "Infiltration": 0,
+              "PortScan": 0,
+              "SSH-Patator": 0,
+              "Web Attack – Brute Force": 0,
+              "Web Attack – Sql Injection": 0,
+              "Web Attack – XSS": 0
+            }
+          }
+        ],
+        "rows_after": 1582723
+      },
+      "test": {
+        "rows_before": 702718,
+        "within_split_duplicates_removed": 1255,
+        "cross_split_rows_removed": 1310,
+        "overlap_removals": [
+          {
+            "overlap_with": "train",
+            "rows_removed": 26,
+            "label_distribution_removed": {
+              "BENIGN": 26,
+              "Bot": 0,
+              "DDoS": 0,
+              "DoS GoldenEye": 0,
+              "DoS Hulk": 0,
+              "DoS Slowhttptest": 0,
+              "DoS slowloris": 0,
+              "FTP-Patator": 0,
+              "Heartbleed": 0,
+              "Infiltration": 0,
+              "PortScan": 0,
+              "SSH-Patator": 0,
+              "Web Attack – Brute Force": 0,
+              "Web Attack – Sql Injection": 0,
+              "Web Attack – XSS": 0
+            }
+          },
+          {
+            "overlap_with": "calibration",
+            "rows_removed": 18,
+            "label_distribution_removed": {
+              "BENIGN": 18,
+              "Bot": 0,
+              "DDoS": 0,
+              "DoS GoldenEye": 0,
+              "DoS Hulk": 0,
+              "DoS Slowhttptest": 0,
+              "DoS slowloris": 0,
+              "FTP-Patator": 0,
+              "Heartbleed": 0,
+              "Infiltration": 0,
+              "PortScan": 0,
+              "SSH-Patator": 0,
+              "Web Attack – Brute Force": 0,
+              "Web Attack – Sql Injection": 0,
+              "Web Attack – XSS": 0
+            }
+          },
+          {
+            "overlap_with": "selection",
+            "rows_removed": 1266,
+            "label_distribution_removed": {
+              "BENIGN": 1266,
+              "Bot": 0,
+              "DDoS": 0,
+              "DoS GoldenEye": 0,
+              "DoS Hulk": 0,
+              "DoS Slowhttptest": 0,
+              "DoS slowloris": 0,
+              "FTP-Patator": 0,
+              "Heartbleed": 0,
+              "Infiltration": 0,
+              "PortScan": 0,
+              "SSH-Patator": 0,
+              "Web Attack – Brute Force": 0,
+              "Web Attack – Sql Injection": 0,
+              "Web Attack – XSS": 0
+            }
+          }
+        ],
+        "rows_after": 700153
+      }
+    }
+  }
+}

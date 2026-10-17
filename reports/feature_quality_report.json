@@ -1,0 +1,979 @@
+{
+  "constant_features": [
+    "Bwd PSH Flags",
+    "Fwd URG Flags",
+    "Bwd URG Flags",
+    "CWE Flag Count",
+    "Fwd Avg Bytes/Bulk",
+    "Fwd Avg Packets/Bulk",
+    "Fwd Avg Bulk Rate",
+    "Bwd Avg Bytes/Bulk",
+    "Bwd Avg Packets/Bulk",
+    "Bwd Avg Bulk Rate"
+  ],
+  "unique_values": [
+    {
+      "Feature": "Source Port",
+      "Unique values": 45225,
+      "Constant": false
+    },
+    {
+      "Feature": "Destination Port",
+      "Unique values": 26982,
+      "Constant": false
+    },
+    {
+      "Feature": "Protocol",
+      "Unique values": 3,
+      "Constant": false
+    },
+    {
+      "Feature": "Flow Duration",
+      "Unique values": 210271,
+      "Constant": false
+    },
+    {
+      "Feature": "Total Fwd Packets",
+      "Unique values": 651,
+      "Constant": false
+    },
+    {
+      "Feature": "Total Backward Packets",
+      "Unique values": 830,
+      "Constant": false
+    },
+    {
+      "Feature": "Total Length of Fwd Packets",
+      "Unique values": 9302,
+      "Constant": false
+    },
+    {
+      "Feature": "Total Length of Bwd Packets",
+      "Unique values": 24678,
+      "Constant": false
+    },
+    {
+      "Feature": "Fwd Packet Length Max",
+      "Unique values": 3590,
+      "Constant": false
+    },
+    {
+      "Feature": "Fwd Packet Length Min",
+      "Unique values": 196,
+      "Constant": false
+    },
+    {
+      "Feature": "Fwd Packet Length Mean",
+      "Unique values": 40337,
+      "Constant": false
+    },
+    {
+      "Feature": "Fwd Packet Length Std",
+      "Unique values": 60449,
+      "Constant": false
+    },
+    {
+      "Feature": "Bwd Packet Length Max",
+      "Unique values": 3858,
+      "Constant": false
+    },
+    {
+      "Feature": "Bwd Packet Length Min",
+      "Unique values": 423,
+      "Constant": false
+    },
+    {
+      "Feature": "Bwd Packet Length Mean",
+      "Unique values": 49408,
+      "Constant": false
+    },
+    {
+      "Feature": "Bwd Packet Length Std",
+      "Unique values": 61796,
+      "Constant": false
+    },
+    {
+      "Feature": "Flow Bytes/s",
+      "Unique values": 286988,
+      "Constant": false
+    },
+    {
+      "Feature": "Flow Packets/s",
+      "Unique values": 228076,
+      "Constant": false
+    },
+    {
+      "Feature": "Flow IAT Mean",
+      "Unique values": 230993,
+      "Constant": false
+    },
+    {
+      "Feature": "Flow IAT Std",
+      "Unique values": 210363,
+      "Constant": false
+    },
+    {
+      "Feature": "Flow IAT Max",
+      "Unique values": 183634,
+      "Constant": false
+    },
+    {
+      "Feature": "Flow IAT Min",
+      "Unique values": 46936,
+      "Constant": false
+    },
+    {
+      "Feature": "Fwd IAT Total",
+      "Unique values": 174607,
+      "Constant": false
+    },
+    {
+      "Feature": "Fwd IAT Mean",
+      "Unique values": 178941,
+      "Constant": false
+    },
+    {
+      "Feature": "Fwd IAT Std",
+      "Unique values": 156899,
+      "Constant": false
+    },
+    {
+      "Feature": "Fwd IAT Max",
+      "Unique values": 147189,
+      "Constant": false
+    },
+    {
+      "Feature": "Fwd IAT Min",
+      "Unique values": 43374,
+      "Constant": false
+    },
+    {
+      "Feature": "Bwd IAT Total",
+      "Unique values": 136071,
+      "Constant": false
+    },
+    {
+      "Feature": "Bwd IAT Mean",
+      "Unique values": 140369,
+      "Constant": false
+    },
+    {
+      "Feature": "Bwd IAT Std",
+      "Unique values": 129793,
+      "Constant": false
+    },
+    {
+      "Feature": "Bwd IAT Max",
+      "Unique values": 117016,
+      "Constant": false
+    },
+    {
+      "Feature": "Bwd IAT Min",
+      "Unique values": 26216,
+      "Constant": false
+    },
+    {
+      "Feature": "Fwd PSH Flags",
+      "Unique values": 2,
+      "Constant": false
+    },
+    {
+      "Feature": "Bwd PSH Flags",
+      "Unique values": 1,
+      "Constant": true
+    },
+    {
+      "Feature": "Fwd URG Flags",
+      "Unique values": 1,
+      "Constant": true
+    },
+    {
+      "Feature": "Bwd URG Flags",
+      "Unique values": 1,
+      "Constant": true
+    },
+    {
+      "Feature": "Fwd Header Length",
+      "Unique values": 1699,
+      "Constant": false
+    },
+    {
+      "Feature": "Bwd Header Length",
+      "Unique values": 1907,
+      "Constant": false
+    },
+    {
+      "Feature": "Fwd Packets/s",
+      "Unique values": 226015,
+      "Constant": false
+    },
+    {
+      "Feature": "Bwd Packets/s",
+      "Unique values": 207195,
+      "Constant": false
+    },
+    {
+      "Feature": "Min Packet Length",
+      "Unique values": 138,
+      "Constant": false
+    },
+    {
+      "Feature": "Max Packet Length",
+      "Unique values": 4384,
+      "Constant": false
+    },
+    {
+      "Feature": "Packet Length Mean",
+      "Unique values": 68709,
+      "Constant": false
+    },
+    {
+      "Feature": "Packet Length Std",
+      "Unique values": 85502,
+      "Constant": false
+    },
+    {
+      "Feature": "Packet Length Variance",
+      "Unique values": 86157,
+      "Constant": false
+    },
+    {
+      "Feature": "FIN Flag Count",
+      "Unique values": 2,
+      "Constant": false
+    },
+    {
+      "Feature": "SYN Flag Count",
+      "Unique values": 2,
+      "Constant": false
+    },
+    {
+      "Feature": "RST Flag Count",
+      "Unique values": 2,
+      "Constant": false
+    },
+    {
+      "Feature": "PSH Flag Count",
+      "Unique values": 2,
+      "Constant": false
+    },
+    {
+      "Feature": "ACK Flag Count",
+      "Unique values": 2,
+      "Constant": false
+    },
+    {
+      "Feature": "URG Flag Count",
+      "Unique values": 2,
+      "Constant": false
+    },
+    {
+      "Feature": "CWE Flag Count",
+      "Unique values": 1,
+      "Constant": true
+    },
+    {
+      "Feature": "ECE Flag Count",
+      "Unique values": 2,
+      "Constant": false
+    },
+    {
+      "Feature": "Down/Up Ratio",
+      "Unique values": 9,
+      "Constant": false
+    },
+    {
+      "Feature": "Average Packet Size",
+      "Unique values": 59361,
+      "Constant": false
+    },
+    {
+      "Feature": "Avg Fwd Segment Size",
+      "Unique values": 32138,
+      "Constant": false
+    },
+    {
+      "Feature": "Avg Bwd Segment Size",
+      "Unique values": 44359,
+      "Constant": false
+    },
+    {
+      "Feature": "Fwd Header Length.1",
+      "Unique values": 1699,
+      "Constant": false
+    },
+    {
+      "Feature": "Fwd Avg Bytes/Bulk",
+      "Unique values": 1,
+      "Constant": true
+    },
+    {
+      "Feature": "Fwd Avg Packets/Bulk",
+      "Unique values": 1,
+      "Constant": true
+    },
+    {
+      "Feature": "Fwd Avg Bulk Rate",
+      "Unique values": 1,
+      "Constant": true
+    },
+    {
+      "Feature": "Bwd Avg Bytes/Bulk",
+      "Unique values": 1,
+      "Constant": true
+    },
+    {
+      "Feature": "Bwd Avg Packets/Bulk",
+      "Unique values": 1,
+      "Constant": true
+    },
+    {
+      "Feature": "Bwd Avg Bulk Rate",
+      "Unique values": 1,
+      "Constant": true
+    },
+    {
+      "Feature": "Subflow Fwd Packets",
+      "Unique values": 651,
+      "Constant": false
+    },
+    {
+      "Feature": "Subflow Fwd Bytes",
+      "Unique values": 9302,
+      "Constant": false
+    },
+    {
+      "Feature": "Subflow Bwd Packets",
+      "Unique values": 830,
+      "Constant": false
+    },
+    {
+      "Feature": "Subflow Bwd Bytes",
+      "Unique values": 24678,
+      "Constant": false
+    },
+    {
+      "Feature": "Init_Win_bytes_forward",
+      "Unique values": 5561,
+      "Constant": false
+    },
+    {
+      "Feature": "Init_Win_bytes_backward",
+      "Unique values": 5577,
+      "Constant": false
+    },
+    {
+      "Feature": "act_data_pkt_fwd",
+      "Unique values": 540,
+      "Constant": false
+    },
+    {
+      "Feature": "min_seg_size_forward",
+      "Unique values": 16,
+      "Constant": false
+    },
+    {
+      "Feature": "Active Mean",
+      "Unique values": 68211,
+      "Constant": false
+    },
+    {
+      "Feature": "Active Std",
+      "Unique values": 42045,
+      "Constant": false
+    },
+    {
+      "Feature": "Active Max",
+      "Unique values": 66446,
+      "Constant": false
+    },
+    {
+      "Feature": "Active Min",
+      "Unique values": 44771,
+      "Constant": false
+    },
+    {
+      "Feature": "Idle Mean",
+      "Unique values": 72162,
+      "Constant": false
+    },
+    {
+      "Feature": "Idle Std",
+      "Unique values": 42642,
+      "Constant": false
+    },
+    {
+      "Feature": "Idle Max",
+      "Unique values": 62171,
+      "Constant": false
+    },
+    {
+      "Feature": "Idle Min",
+      "Unique values": 64236,
+      "Constant": false
+    }
+  ],
+  "near_constant_features": [
+    {
+      "Feature": "Bwd PSH Flags",
+      "Dominant Value": 0.0,
+      "Dominant %": 100.0
+    },
+    {
+      "Feature": "Fwd URG Flags",
+      "Dominant Value": 0.0,
+      "Dominant %": 100.0
+    },
+    {
+      "Feature": "Bwd URG Flags",
+      "Dominant Value": 0.0,
+      "Dominant %": 100.0
+    },
+    {
+      "Feature": "RST Flag Count",
+      "Dominant Value": 0.0,
+      "Dominant %": 99.98323827151168
+    },
+    {
+      "Feature": "CWE Flag Count",
+      "Dominant Value": 0.0,
+      "Dominant %": 100.0
+    },
+    {
+      "Feature": "ECE Flag Count",
+      "Dominant Value": 0.0,
+      "Dominant %": 99.98300219082874
+    },
+    {
+      "Feature": "Fwd Avg Bytes/Bulk",
+      "Dominant Value": 0.0,
+      "Dominant %": 100.0
+    },
+    {
+      "Feature": "Fwd Avg Packets/Bulk",
+      "Dominant Value": 0.0,
+      "Dominant %": 100.0
+    },
+    {
+      "Feature": "Fwd Avg Bulk Rate",
+      "Dominant Value": 0.0,
+      "Dominant %": 100.0
+    },
+    {
+      "Feature": "Bwd Avg Bytes/Bulk",
+      "Dominant Value": 0.0,
+      "Dominant %": 100.0
+    },
+    {
+      "Feature": "Bwd Avg Packets/Bulk",
+      "Dominant Value": 0.0,
+      "Dominant %": 100.0
+    },
+    {
+      "Feature": "Bwd Avg Bulk Rate",
+      "Dominant Value": 0.0,
+      "Dominant %": 100.0
+    }
+  ],
+  "duplicate_features": [
+    {
+      "Feature A": "Total Fwd Packets",
+      "Feature B": "Subflow Fwd Packets",
+      "Identical": true
+    },
+    {
+      "Feature A": "Total Backward Packets",
+      "Feature B": "Subflow Bwd Packets",
+      "Identical": true
+    },
+    {
+      "Feature A": "Total Length of Fwd Packets",
+      "Feature B": "Subflow Fwd Bytes",
+      "Identical": true
+    },
+    {
+      "Feature A": "Total Length of Bwd Packets",
+      "Feature B": "Subflow Bwd Bytes",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd PSH Flags",
+      "Feature B": "SYN Flag Count",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd PSH Flags",
+      "Feature B": "Fwd URG Flags",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd PSH Flags",
+      "Feature B": "Bwd URG Flags",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd PSH Flags",
+      "Feature B": "CWE Flag Count",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd PSH Flags",
+      "Feature B": "Fwd Avg Bytes/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd PSH Flags",
+      "Feature B": "Fwd Avg Packets/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd PSH Flags",
+      "Feature B": "Fwd Avg Bulk Rate",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd PSH Flags",
+      "Feature B": "Bwd Avg Bytes/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd PSH Flags",
+      "Feature B": "Bwd Avg Packets/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd PSH Flags",
+      "Feature B": "Bwd Avg Bulk Rate",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd URG Flags",
+      "Feature B": "Bwd URG Flags",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd URG Flags",
+      "Feature B": "CWE Flag Count",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd URG Flags",
+      "Feature B": "Fwd Avg Bytes/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd URG Flags",
+      "Feature B": "Fwd Avg Packets/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd URG Flags",
+      "Feature B": "Fwd Avg Bulk Rate",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd URG Flags",
+      "Feature B": "Bwd Avg Bytes/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd URG Flags",
+      "Feature B": "Bwd Avg Packets/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd URG Flags",
+      "Feature B": "Bwd Avg Bulk Rate",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd URG Flags",
+      "Feature B": "CWE Flag Count",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd URG Flags",
+      "Feature B": "Fwd Avg Bytes/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd URG Flags",
+      "Feature B": "Fwd Avg Packets/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd URG Flags",
+      "Feature B": "Fwd Avg Bulk Rate",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd URG Flags",
+      "Feature B": "Bwd Avg Bytes/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd URG Flags",
+      "Feature B": "Bwd Avg Packets/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd URG Flags",
+      "Feature B": "Bwd Avg Bulk Rate",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd Header Length",
+      "Feature B": "Fwd Header Length.1",
+      "Identical": true
+    },
+    {
+      "Feature A": "CWE Flag Count",
+      "Feature B": "Fwd Avg Bytes/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "CWE Flag Count",
+      "Feature B": "Fwd Avg Packets/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "CWE Flag Count",
+      "Feature B": "Fwd Avg Bulk Rate",
+      "Identical": true
+    },
+    {
+      "Feature A": "CWE Flag Count",
+      "Feature B": "Bwd Avg Bytes/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "CWE Flag Count",
+      "Feature B": "Bwd Avg Packets/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "CWE Flag Count",
+      "Feature B": "Bwd Avg Bulk Rate",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd Avg Bytes/Bulk",
+      "Feature B": "Fwd Avg Packets/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd Avg Bytes/Bulk",
+      "Feature B": "Fwd Avg Bulk Rate",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd Avg Bytes/Bulk",
+      "Feature B": "Bwd Avg Bytes/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd Avg Bytes/Bulk",
+      "Feature B": "Bwd Avg Packets/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd Avg Bytes/Bulk",
+      "Feature B": "Bwd Avg Bulk Rate",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd Avg Packets/Bulk",
+      "Feature B": "Fwd Avg Bulk Rate",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd Avg Packets/Bulk",
+      "Feature B": "Bwd Avg Bytes/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd Avg Packets/Bulk",
+      "Feature B": "Bwd Avg Packets/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd Avg Packets/Bulk",
+      "Feature B": "Bwd Avg Bulk Rate",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd Avg Bulk Rate",
+      "Feature B": "Bwd Avg Bytes/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd Avg Bulk Rate",
+      "Feature B": "Bwd Avg Packets/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Fwd Avg Bulk Rate",
+      "Feature B": "Bwd Avg Bulk Rate",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd Avg Bytes/Bulk",
+      "Feature B": "Bwd Avg Packets/Bulk",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd Avg Bytes/Bulk",
+      "Feature B": "Bwd Avg Bulk Rate",
+      "Identical": true
+    },
+    {
+      "Feature A": "Bwd Avg Packets/Bulk",
+      "Feature B": "Bwd Avg Bulk Rate",
+      "Identical": true
+    }
+  ],
+  "highly_correlated_pairs": [
+    {
+      "Feature A": "Flow Duration",
+      "Feature B": "Fwd IAT Total",
+      "Correlation": 0.9976529853933637
+    },
+    {
+      "Feature A": "Flow Duration",
+      "Feature B": "Bwd IAT Total",
+      "Correlation": 0.9720859038662116
+    },
+    {
+      "Feature A": "Total Fwd Packets",
+      "Feature B": "Total Backward Packets",
+      "Correlation": 0.9993189577333382
+    },
+    {
+      "Feature A": "Total Fwd Packets",
+      "Feature B": "Total Length of Bwd Packets",
+      "Correlation": 0.9993758155623138
+    },
+    {
+      "Feature A": "Total Fwd Packets",
+      "Feature B": "Subflow Fwd Packets",
+      "Correlation": 1.0
+    },
+    {
+      "Feature A": "Total Fwd Packets",
+      "Feature B": "Subflow Bwd Packets",
+      "Correlation": 0.9993189577333382
+    },
+    {
+      "Feature A": "Total Fwd Packets",
+      "Feature B": "Subflow Bwd Bytes",
+      "Correlation": 0.9993758155623138
+    },
+    {
+      "Feature A": "Total Fwd Packets",
+      "Feature B": "act_data_pkt_fwd",
+      "Correlation": 0.9995000975929109
+    },
+    {
+      "Feature A": "Total Backward Packets",
+      "Feature B": "Total Length of Bwd Packets",
+      "Correlation": 0.997778404391427
+    },
+    {
+      "Feature A": "Total Backward Packets",
+      "Feature B": "Subflow Fwd Packets",
+      "Correlation": 0.9993189577333385
+    },
+    {
+      "Feature A": "Total Backward Packets",
+      "Feature B": "Subflow Bwd Packets",
+      "Correlation": 1.0
+    },
+    {
+      "Feature A": "Total Backward Packets",
+      "Feature B": "Subflow Bwd Bytes",
+      "Correlation": 0.997778404391427
+    },
+    {
+      "Feature A": "Total Backward Packets",
+      "Feature B": "act_data_pkt_fwd",
+      "Correlation": 0.9994805389617666
+    },
+    {
+      "Feature A": "Total Length of Fwd Packets",
+      "Feature B": "Subflow Fwd Bytes",
+      "Correlation": 1.0
+    },
+    {
+      "Feature A": "Total Length of Bwd Packets",
+      "Feature B": "Subflow Fwd Packets",
+      "Correlation": 0.9993758155623138
+    },
+    {
+      "Feature A": "Total Length of Bwd Packets",
+      "Feature B": "Subflow Bwd Packets",
+      "Correlation": 0.997778404391427
+    },
+    {
+      "Feature A": "Total Length of Bwd Packets",
+      "Feature B": "Subflow Bwd Bytes",
+      "Correlation": 1.0
+    },
+    {
+      "Feature A": "Total Length of Bwd Packets",
+      "Feature B": "act_data_pkt_fwd",
+      "Correlation": 0.9986759400468503
+    },
+    {
+      "Feature A": "Fwd Packet Length Mean",
+      "Feature B": "Avg Fwd Segment Size",
+      "Correlation": 1.0
+    },
+    {
+      "Feature A": "Bwd Packet Length Mean",
+      "Feature B": "Avg Bwd Segment Size",
+      "Correlation": 1.0
+    },
+    {
+      "Feature A": "Flow Packets/s",
+      "Feature B": "Fwd Packets/s",
+      "Correlation": 0.9904320811733833
+    },
+    {
+      "Feature A": "Flow IAT Max",
+      "Feature B": "Fwd IAT Max",
+      "Correlation": 0.99318475327947
+    },
+    {
+      "Feature A": "Fwd IAT Total",
+      "Feature B": "Bwd IAT Total",
+      "Correlation": 0.9690617483072379
+    },
+    {
+      "Feature A": "Fwd IAT Mean",
+      "Feature B": "Fwd IAT Min",
+      "Correlation": 0.9747424363572962
+    },
+    {
+      "Feature A": "Bwd IAT Mean",
+      "Feature B": "Bwd IAT Min",
+      "Correlation": 0.9712366259558465
+    },
+    {
+      "Feature A": "Bwd IAT Max",
+      "Feature B": "Idle Max",
+      "Correlation": 0.9525213182007658
+    },
+    {
+      "Feature A": "Fwd PSH Flags",
+      "Feature B": "SYN Flag Count",
+      "Correlation": 1.0
+    },
+    {
+      "Feature A": "Fwd Header Length",
+      "Feature B": "Fwd Header Length.1",
+      "Correlation": 1.0
+    },
+    {
+      "Feature A": "Max Packet Length",
+      "Feature B": "Packet Length Std",
+      "Correlation": 0.9639739656639329
+    },
+    {
+      "Feature A": "Packet Length Mean",
+      "Feature B": "Average Packet Size",
+      "Correlation": 0.9945266545683147
+    },
+    {
+      "Feature A": "RST Flag Count",
+      "Feature B": "ECE Flag Count",
+      "Correlation": 0.9930301016096873
+    },
+    {
+      "Feature A": "Subflow Fwd Packets",
+      "Feature B": "Subflow Bwd Packets",
+      "Correlation": 0.9993189577333382
+    },
+    {
+      "Feature A": "Subflow Fwd Packets",
+      "Feature B": "Subflow Bwd Bytes",
+      "Correlation": 0.9993758155623138
+    },
+    {
+      "Feature A": "Subflow Fwd Packets",
+      "Feature B": "act_data_pkt_fwd",
+      "Correlation": 0.9995000975929109
+    },
+    {
+      "Feature A": "Subflow Bwd Packets",
+      "Feature B": "Subflow Bwd Bytes",
+      "Correlation": 0.997778404391427
+    },
+    {
+      "Feature A": "Subflow Bwd Packets",
+      "Feature B": "act_data_pkt_fwd",
+      "Correlation": 0.9994805389617666
+    },
+    {
+      "Feature A": "Subflow Bwd Bytes",
+      "Feature B": "act_data_pkt_fwd",
+      "Correlation": 0.9986759400468503
+    },
+    {
+      "Feature A": "Idle Mean",
+      "Feature B": "Idle Max",
+      "Correlation": 0.9917620480754318
+    },
+    {
+      "Feature A": "Idle Mean",
+      "Feature B": "Idle Min",
+      "Correlation": 0.9914155850273165
+    },
+    {
+      "Feature A": "Idle Max",
+      "Feature B": "Idle Min",
+      "Correlation": 0.9676300952204874
+    }
+  ],
+  "policy": "Khảo sát chỉ trên Train trước row cleanup; chỉ loại constant và exact duplicate columns. Near-constant/correlation không dùng để loại cột.",
+  "selection": {
+    "fit_source": "train_before_row_cleanup",
+    "constant_features_removed": [
+      "Bwd PSH Flags",
+      "Fwd URG Flags",
+      "Bwd URG Flags",
+      "CWE Flag Count",
+      "Fwd Avg Bytes/Bulk",
+      "Fwd Avg Packets/Bulk",
+      "Fwd Avg Bulk Rate",
+      "Bwd Avg Bytes/Bulk",
+      "Bwd Avg Packets/Bulk",
+      "Bwd Avg Bulk Rate"
+    ],
+    "duplicate_features_removed": [
+      {
+        "removed": "SYN Flag Count",
+        "retained": "Fwd PSH Flags"
+      },
+      {
+        "removed": "Fwd Header Length.1",
+        "retained": "Fwd Header Length"
+      },
+      {
+        "removed": "Subflow Fwd Packets",
+        "retained": "Total Fwd Packets"
+      },
+      {
+        "removed": "Subflow Fwd Bytes",
+        "retained": "Total Length of Fwd Packets"
+      },
+      {
+        "removed": "Subflow Bwd Packets",
+        "retained": "Total Backward Packets"
+      },
+      {
+        "removed": "Subflow Bwd Bytes",
+        "retained": "Total Length of Bwd Packets"
+      }
+    ]
+  }
+}

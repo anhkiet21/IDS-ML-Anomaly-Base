@@ -1,0 +1,6 @@
+{
+  "authorized_by": "user",
+  "scope": "Loại các hàng hoàn toàn rỗng trong WebAttacks và các hàng NaN/Inf còn lại; giữ nguyên raw; tiếp tục tạo 4 Parquet.",
+  "max_non_finite_fraction_for_this_run": 0.10,
+  "default_guard_unchanged": 0.01
+}

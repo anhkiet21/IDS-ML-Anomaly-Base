@@ -1,0 +1,56 @@
+{
+  "physical_rows": 3119345,
+  "comma_only_rows": 288602,
+  "structured_rows": 2830743,
+  "files": [
+    {
+      "file": "Monday-WorkingHours.pcap_ISCX.csv",
+      "physical_rows": 529918,
+      "comma_only_rows": 0,
+      "structured_rows": 529918
+    },
+    {
+      "file": "Tuesday-WorkingHours.pcap_ISCX.csv",
+      "physical_rows": 445909,
+      "comma_only_rows": 0,
+      "structured_rows": 445909
+    },
+    {
+      "file": "Wednesday-workingHours.pcap_ISCX.csv",
+      "physical_rows": 692703,
+      "comma_only_rows": 0,
+      "structured_rows": 692703
+    },
+    {
+      "file": "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+      "physical_rows": 458968,
+      "comma_only_rows": 288602,
+      "structured_rows": 170366
+    },
+    {
+      "file": "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+      "physical_rows": 288602,
+      "comma_only_rows": 0,
+      "structured_rows": 288602
+    },
+    {
+      "file": "Friday-WorkingHours-Morning.pcap_ISCX.csv",
+      "physical_rows": 191033,
+      "comma_only_rows": 0,
+      "structured_rows": 191033
+    },
+    {
+      "file": "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+      "physical_rows": 225745,
+      "comma_only_rows": 0,
+      "structured_rows": 225745
+    },
+    {
+      "file": "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+      "physical_rows": 286467,
+      "comma_only_rows": 0,
+      "structured_rows": 286467
+    }
+  ],
+  "definition": "Raw columns đều NaN sau read_csv; tính riêng, không đưa vào actual NaN/Inf."
+}

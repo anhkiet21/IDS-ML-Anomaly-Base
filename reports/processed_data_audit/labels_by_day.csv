@@ -1,0 +1,24 @@
+Split,source_day,Label,Count
+train,Monday,BENIGN,422352
+calibration,Monday,BENIGN,105730
+selection,Thursday-Infiltration,BENIGN,287226
+selection,Thursday-Infiltration,Infiltration,36
+selection,Thursday-WebAttack,BENIGN,166887
+selection,Thursday-WebAttack,Web Attack – Brute Force,1507
+selection,Thursday-WebAttack,Web Attack – Sql Injection,21
+selection,Thursday-WebAttack,Web Attack – XSS,652
+selection,Tuesday,BENIGN,430564
+selection,Tuesday,FTP-Patator,7935
+selection,Tuesday,SSH-Patator,5897
+selection,Wednesday,BENIGN,437863
+selection,Wednesday,DoS GoldenEye,10293
+selection,Wednesday,DoS Hulk,222563
+selection,Wednesday,DoS Slowhttptest,5499
+selection,Wednesday,DoS slowloris,5769
+selection,Wednesday,Heartbleed,11
+test,Friday-Bot,BENIGN,187498
+test,Friday-Bot,Bot,1956
+test,Friday-DDoS,BENIGN,97323
+test,Friday-DDoS,DDoS,128025
+test,Friday-PortScan,BENIGN,126547
+test,Friday-PortScan,PortScan,158804

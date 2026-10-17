@@ -1,0 +1,56 @@
+[
+  {
+    "Dataset A": "train",
+    "Dataset B": "calibration",
+    "Duplicate Feature Rows": 108,
+    "matching_rows_a": 264,
+    "matching_rows_b": 112,
+    "percentage_a": 0.06232530029462869,
+    "percentage_b": 0.10576314720908053
+  },
+  {
+    "Dataset A": "train",
+    "Dataset B": "selection",
+    "Duplicate Feature Rows": 64,
+    "matching_rows_a": 217,
+    "matching_rows_b": 619,
+    "percentage_a": 0.05122950819672131,
+    "percentage_b": 0.038792311977925355
+  },
+  {
+    "Dataset A": "train",
+    "Dataset B": "test",
+    "Duplicate Feature Rows": 26,
+    "matching_rows_a": 172,
+    "matching_rows_b": 178,
+    "percentage_a": 0.04060587746468233,
+    "percentage_b": 0.02533021781141226
+  },
+  {
+    "Dataset A": "calibration",
+    "Dataset B": "selection",
+    "Duplicate Feature Rows": 32,
+    "matching_rows_a": 32,
+    "matching_rows_b": 279,
+    "percentage_a": 0.030218042059737295,
+    "percentage_b": 0.017484741586173143
+  },
+  {
+    "Dataset A": "calibration",
+    "Dataset B": "test",
+    "Duplicate Feature Rows": 19,
+    "matching_rows_a": 20,
+    "matching_rows_b": 80,
+    "percentage_a": 0.01888627628733581,
+    "percentage_b": 0.011384367555690902
+  },
+  {
+    "Dataset A": "selection",
+    "Dataset B": "test",
+    "Duplicate Feature Rows": 1275,
+    "matching_rows_a": 4430,
+    "matching_rows_b": 2359,
+    "percentage_a": 0.27762510833959503,
+    "percentage_b": 0.3356965382984355
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "train": {
+    "sources": [
+      "Monday"
+    ],
+    "source": "Monday",
+    "total": 422352,
+    "benign": 422352,
+    "attack": 0,
+    "labels": {
+      "BENIGN": 422352,
+      "Bot": 0,
+      "DDoS": 0,
+      "DoS GoldenEye": 0,
+      "DoS Hulk": 0,
+      "DoS Slowhttptest": 0,
+      "DoS slowloris": 0,
+      "FTP-Patator": 0,
+      "Heartbleed": 0,
+      "Infiltration": 0,
+      "PortScan": 0,
+      "SSH-Patator": 0,
+      "Web Attack – Brute Force": 0,
+      "Web Attack – Sql Injection": 0,
+      "Web Attack – XSS": 0
+    }
+  },
+  "calibration": {
+    "sources": [
+      "Monday"
+    ],
+    "source": "Monday",
+    "total": 105730,
+    "benign": 105730,
+    "attack": 0,
+    "labels": {
+      "BENIGN": 105730,
+      "Bot": 0,
+      "DDoS": 0,
+      "DoS GoldenEye": 0,
+      "DoS Hulk": 0,
+      "DoS Slowhttptest": 0,
+      "DoS slowloris": 0,
+      "FTP-Patator": 0,
+      "Heartbleed": 0,
+      "Infiltration": 0,
+      "PortScan": 0,
+      "SSH-Patator": 0,
+      "Web Attack – Brute Force": 0,
+      "Web Attack – Sql Injection": 0,
+      "Web Attack – XSS": 0
+    }
+  },
+  "selection": {
+    "sources": [
+      "Thursday-Infiltration",
+      "Thursday-WebAttack",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "source": null,
+    "total": 1582723,
+    "benign": 1322540,
+    "attack": 260183,
+    "labels": {
+      "BENIGN": 1322540,
+      "DoS Hulk": 222563,
+      "DoS GoldenEye": 10293,
+      "FTP-Patator": 7935,
+      "SSH-Patator": 5897,
+      "DoS slowloris": 5769,
+      "DoS Slowhttptest": 5499,
+      "Web Attack – Brute Force": 1507,
+      "Web Attack – XSS": 652,
+      "Infiltration": 36,
+      "Web Attack – Sql Injection": 21,
+      "Heartbleed": 11,
+      "Bot": 0,
+      "DDoS": 0,
+      "PortScan": 0
+    }
+  },
+  "test": {
+    "sources": [
+      "Friday-Bot",
+      "Friday-DDoS",
+      "Friday-PortScan"
+    ],
+    "source": null,
+    "total": 700153,
+    "benign": 411368,
+    "attack": 288785,
+    "labels": {
+      "BENIGN": 411368,
+      "PortScan": 158804,
+      "DDoS": 128025,
+      "Bot": 1956,
+      "DoS GoldenEye": 0,
+      "DoS Hulk": 0,
+      "DoS Slowhttptest": 0,
+      "DoS slowloris": 0,
+      "FTP-Patator": 0,
+      "Heartbleed": 0,
+      "Infiltration": 0,
+      "SSH-Patator": 0,
+      "Web Attack – Brute Force": 0,
+      "Web Attack – Sql Injection": 0,
+      "Web Attack – XSS": 0
+    }
+  }
+}

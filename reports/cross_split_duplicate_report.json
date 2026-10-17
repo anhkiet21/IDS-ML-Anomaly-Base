@@ -1,0 +1,339 @@
+{
+  "before_all_numeric_features": [
+    {
+      "Dataset A": "train",
+      "Dataset B": "calibration",
+      "Duplicate Feature Rows": 108,
+      "matching_rows_a": 264,
+      "matching_rows_b": 112,
+      "percentage_a": 0.06232530029462869,
+      "percentage_b": 0.10576314720908053
+    },
+    {
+      "Dataset A": "train",
+      "Dataset B": "selection",
+      "Duplicate Feature Rows": 64,
+      "matching_rows_a": 217,
+      "matching_rows_b": 619,
+      "percentage_a": 0.05122950819672131,
+      "percentage_b": 0.038792311977925355
+    },
+    {
+      "Dataset A": "train",
+      "Dataset B": "test",
+      "Duplicate Feature Rows": 26,
+      "matching_rows_a": 172,
+      "matching_rows_b": 178,
+      "percentage_a": 0.04060587746468233,
+      "percentage_b": 0.02533021781141226
+    },
+    {
+      "Dataset A": "calibration",
+      "Dataset B": "selection",
+      "Duplicate Feature Rows": 32,
+      "matching_rows_a": 32,
+      "matching_rows_b": 279,
+      "percentage_a": 0.030218042059737295,
+      "percentage_b": 0.017484741586173143
+    },
+    {
+      "Dataset A": "calibration",
+      "Dataset B": "test",
+      "Duplicate Feature Rows": 19,
+      "matching_rows_a": 20,
+      "matching_rows_b": 80,
+      "percentage_a": 0.01888627628733581,
+      "percentage_b": 0.011384367555690902
+    },
+    {
+      "Dataset A": "selection",
+      "Dataset B": "test",
+      "Duplicate Feature Rows": 1275,
+      "matching_rows_a": 4430,
+      "matching_rows_b": 2359,
+      "percentage_a": 0.27762510833959503,
+      "percentage_b": 0.3356965382984355
+    }
+  ],
+  "before": [
+    {
+      "Dataset A": "train",
+      "Dataset B": "calibration",
+      "Duplicate Feature Rows": 108,
+      "matching_rows_a": 264,
+      "matching_rows_b": 112,
+      "percentage_a": 0.06232530029462869,
+      "percentage_b": 0.10576314720908053
+    },
+    {
+      "Dataset A": "train",
+      "Dataset B": "selection",
+      "Duplicate Feature Rows": 64,
+      "matching_rows_a": 217,
+      "matching_rows_b": 619,
+      "percentage_a": 0.05122950819672131,
+      "percentage_b": 0.038792311977925355
+    },
+    {
+      "Dataset A": "train",
+      "Dataset B": "test",
+      "Duplicate Feature Rows": 26,
+      "matching_rows_a": 172,
+      "matching_rows_b": 178,
+      "percentage_a": 0.04060587746468233,
+      "percentage_b": 0.02533021781141226
+    },
+    {
+      "Dataset A": "calibration",
+      "Dataset B": "selection",
+      "Duplicate Feature Rows": 32,
+      "matching_rows_a": 32,
+      "matching_rows_b": 279,
+      "percentage_a": 0.030218042059737295,
+      "percentage_b": 0.017484741586173143
+    },
+    {
+      "Dataset A": "calibration",
+      "Dataset B": "test",
+      "Duplicate Feature Rows": 19,
+      "matching_rows_a": 20,
+      "matching_rows_b": 80,
+      "percentage_a": 0.01888627628733581,
+      "percentage_b": 0.011384367555690902
+    },
+    {
+      "Dataset A": "selection",
+      "Dataset B": "test",
+      "Duplicate Feature Rows": 1275,
+      "matching_rows_a": 4430,
+      "matching_rows_b": 2359,
+      "percentage_a": 0.27762510833959503,
+      "percentage_b": 0.3356965382984355
+    }
+  ],
+  "after": [
+    {
+      "Dataset A": "train",
+      "Dataset B": "calibration",
+      "Duplicate Feature Rows": 0,
+      "matching_rows_a": 0,
+      "matching_rows_b": 0,
+      "percentage_a": 0.0,
+      "percentage_b": 0.0
+    },
+    {
+      "Dataset A": "train",
+      "Dataset B": "selection",
+      "Duplicate Feature Rows": 0,
+      "matching_rows_a": 0,
+      "matching_rows_b": 0,
+      "percentage_a": 0.0,
+      "percentage_b": 0.0
+    },
+    {
+      "Dataset A": "train",
+      "Dataset B": "test",
+      "Duplicate Feature Rows": 0,
+      "matching_rows_a": 0,
+      "matching_rows_b": 0,
+      "percentage_a": 0.0,
+      "percentage_b": 0.0
+    },
+    {
+      "Dataset A": "calibration",
+      "Dataset B": "selection",
+      "Duplicate Feature Rows": 0,
+      "matching_rows_a": 0,
+      "matching_rows_b": 0,
+      "percentage_a": 0.0,
+      "percentage_b": 0.0
+    },
+    {
+      "Dataset A": "calibration",
+      "Dataset B": "test",
+      "Duplicate Feature Rows": 0,
+      "matching_rows_a": 0,
+      "matching_rows_b": 0,
+      "percentage_a": 0.0,
+      "percentage_b": 0.0
+    },
+    {
+      "Dataset A": "selection",
+      "Dataset B": "test",
+      "Duplicate Feature Rows": 0,
+      "matching_rows_a": 0,
+      "matching_rows_b": 0,
+      "percentage_a": 0.0,
+      "percentage_b": 0.0
+    }
+  ],
+  "cleanup_policy": {
+    "priority": [
+      "train",
+      "calibration",
+      "selection",
+      "test"
+    ],
+    "within_split_policy": "Giữ hàng đầu theo model features + Label; giữ conflict khác Label trong cùng split.",
+    "cross_split_policy": "Giữ split ưu tiên cao, bỏ vector giống nhau khỏi split ưu tiên thấp bất kể Label; không shuffle hoặc phân chia lại Monday.",
+    "splits": {
+      "train": {
+        "rows_before": 423584,
+        "within_split_duplicates_removed": 1232,
+        "cross_split_rows_removed": 0,
+        "overlap_removals": [],
+        "rows_after": 422352
+      },
+      "calibration": {
+        "rows_before": 105897,
+        "within_split_duplicates_removed": 59,
+        "cross_split_rows_removed": 108,
+        "overlap_removals": [
+          {
+            "overlap_with": "train",
+            "rows_removed": 108,
+            "label_distribution_removed": {
+              "BENIGN": 108,
+              "Bot": 0,
+              "DDoS": 0,
+              "DoS GoldenEye": 0,
+              "DoS Hulk": 0,
+              "DoS Slowhttptest": 0,
+              "DoS slowloris": 0,
+              "FTP-Patator": 0,
+              "Heartbleed": 0,
+              "Infiltration": 0,
+              "PortScan": 0,
+              "SSH-Patator": 0,
+              "Web Attack – Brute Force": 0,
+              "Web Attack – Sql Injection": 0,
+              "Web Attack – XSS": 0
+            }
+          }
+        ],
+        "rows_after": 105730
+      },
+      "selection": {
+        "rows_before": 1595677,
+        "within_split_duplicates_removed": 12860,
+        "cross_split_rows_removed": 94,
+        "overlap_removals": [
+          {
+            "overlap_with": "train",
+            "rows_removed": 64,
+            "label_distribution_removed": {
+              "BENIGN": 64,
+              "Bot": 0,
+              "DDoS": 0,
+              "DoS GoldenEye": 0,
+              "DoS Hulk": 0,
+              "DoS Slowhttptest": 0,
+              "DoS slowloris": 0,
+              "FTP-Patator": 0,
+              "Heartbleed": 0,
+              "Infiltration": 0,
+              "PortScan": 0,
+              "SSH-Patator": 0,
+              "Web Attack – Brute Force": 0,
+              "Web Attack – Sql Injection": 0,
+              "Web Attack – XSS": 0
+            }
+          },
+          {
+            "overlap_with": "calibration",
+            "rows_removed": 30,
+            "label_distribution_removed": {
+              "BENIGN": 30,
+              "Bot": 0,
+              "DDoS": 0,
+              "DoS GoldenEye": 0,
+              "DoS Hulk": 0,
+              "DoS Slowhttptest": 0,
+              "DoS slowloris": 0,
+              "FTP-Patator": 0,
+              "Heartbleed": 0,
+              "Infiltration": 0,
+              "PortScan": 0,
+              "SSH-Patator": 0,
+              "Web Attack – Brute Force": 0,
+              "Web Attack – Sql Injection": 0,
+              "Web Attack – XSS": 0
+            }
+          }
+        ],
+        "rows_after": 1582723
+      },
+      "test": {
+        "rows_before": 702718,
+        "within_split_duplicates_removed": 1255,
+        "cross_split_rows_removed": 1310,
+        "overlap_removals": [
+          {
+            "overlap_with": "train",
+            "rows_removed": 26,
+            "label_distribution_removed": {
+              "BENIGN": 26,
+              "Bot": 0,
+              "DDoS": 0,
+              "DoS GoldenEye": 0,
+              "DoS Hulk": 0,
+              "DoS Slowhttptest": 0,
+              "DoS slowloris": 0,
+              "FTP-Patator": 0,
+              "Heartbleed": 0,
+              "Infiltration": 0,
+              "PortScan": 0,
+              "SSH-Patator": 0,
+              "Web Attack – Brute Force": 0,
+              "Web Attack – Sql Injection": 0,
+              "Web Attack – XSS": 0
+            }
+          },
+          {
+            "overlap_with": "calibration",
+            "rows_removed": 18,
+            "label_distribution_removed": {
+              "BENIGN": 18,
+              "Bot": 0,
+              "DDoS": 0,
+              "DoS GoldenEye": 0,
+              "DoS Hulk": 0,
+              "DoS Slowhttptest": 0,
+              "DoS slowloris": 0,
+              "FTP-Patator": 0,
+              "Heartbleed": 0,
+              "Infiltration": 0,
+              "PortScan": 0,
+              "SSH-Patator": 0,
+              "Web Attack – Brute Force": 0,
+              "Web Attack – Sql Injection": 0,
+              "Web Attack – XSS": 0
+            }
+          },
+          {
+            "overlap_with": "selection",
+            "rows_removed": 1266,
+            "label_distribution_removed": {
+              "BENIGN": 1266,
+              "Bot": 0,
+              "DDoS": 0,
+              "DoS GoldenEye": 0,
+              "DoS Hulk": 0,
+              "DoS Slowhttptest": 0,
+              "DoS slowloris": 0,
+              "FTP-Patator": 0,
+              "Heartbleed": 0,
+              "Infiltration": 0,
+              "PortScan": 0,
+              "SSH-Patator": 0,
+              "Web Attack – Brute Force": 0,
+              "Web Attack – Sql Injection": 0,
+              "Web Attack – XSS": 0
+            }
+          }
+        ],
+        "rows_after": 700153
+      }
+    }
+  }
+}

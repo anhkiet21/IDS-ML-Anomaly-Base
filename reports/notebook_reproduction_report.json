@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "notebook": "notebooks\\01_CICIDS2017_Preprocessing.ipynb",
+  "execution": "Fresh Jupyter kernel; Run All in order",
+  "parquet_byte_identical_to_baseline": true,
+  "src_unchanged": true,
+  "raw_unchanged": true,
+  "sha256_before": {
+    "calibration.parquet": "86f2d507b2b02f9802230c5fdbbbcfec0852c68a12d33d4be7a44aa66048bebe",
+    "selection.parquet": "e67b3b4b83758b72849971073d02fed112ad8f820489ab4f302d2a7d01e5acdb",
+    "test.parquet": "a9ea588c10e10250fcef9925c9f2043c8f200da267fd6a921f0a44cb5e0c42ff",
+    "train.parquet": "ff38e727a306f488994ba69e827f21a469228d893b13d012a1bb49169ca99597"
+  },
+  "sha256_after": {
+    "calibration.parquet": "86f2d507b2b02f9802230c5fdbbbcfec0852c68a12d33d4be7a44aa66048bebe",
+    "selection.parquet": "e67b3b4b83758b72849971073d02fed112ad8f820489ab4f302d2a7d01e5acdb",
+    "test.parquet": "a9ea588c10e10250fcef9925c9f2043c8f200da267fd6a921f0a44cb5e0c42ff",
+    "train.parquet": "ff38e727a306f488994ba69e827f21a469228d893b13d012a1bb49169ca99597"
+  },
+  "executed_code_cells": 18
+}

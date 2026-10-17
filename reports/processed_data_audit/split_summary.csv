@@ -1,0 +1,5 @@
+Split,Rows,Columns,Model features,BENIGN,ATTACK,NaN,+Inf,-Inf,Feature + Label duplicates,Feature vector duplicates,RAM MiB,Disk MiB,Checksum matches baseline
+train,422352,72,64,422352,0,0,0,0,0,0,260.63,68.33,True
+calibration,105730,72,64,105730,0,0,0,0,0,0,101.8,16.38,True
+selection,1582723,72,64,1322540,260183,0,0,0,0,0,842.71,201.5,True
+test,700153,72,64,411368,288785,0,0,0,0,0,399.98,77.81,True

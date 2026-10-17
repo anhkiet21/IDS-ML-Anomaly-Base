@@ -1,0 +1,56 @@
+[
+  {
+    "Dataset A": "train",
+    "Dataset B": "calibration",
+    "Duplicate Feature Rows": 0,
+    "matching_rows_a": 0,
+    "matching_rows_b": 0,
+    "percentage_a": 0.0,
+    "percentage_b": 0.0
+  },
+  {
+    "Dataset A": "train",
+    "Dataset B": "selection",
+    "Duplicate Feature Rows": 0,
+    "matching_rows_a": 0,
+    "matching_rows_b": 0,
+    "percentage_a": 0.0,
+    "percentage_b": 0.0
+  },
+  {
+    "Dataset A": "train",
+    "Dataset B": "test",
+    "Duplicate Feature Rows": 0,
+    "matching_rows_a": 0,
+    "matching_rows_b": 0,
+    "percentage_a": 0.0,
+    "percentage_b": 0.0
+  },
+  {
+    "Dataset A": "calibration",
+    "Dataset B": "selection",
+    "Duplicate Feature Rows": 0,
+    "matching_rows_a": 0,
+    "matching_rows_b": 0,
+    "percentage_a": 0.0,
+    "percentage_b": 0.0
+  },
+  {
+    "Dataset A": "calibration",
+    "Dataset B": "test",
+    "Duplicate Feature Rows": 0,
+    "matching_rows_a": 0,
+    "matching_rows_b": 0,
+    "percentage_a": 0.0,
+    "percentage_b": 0.0
+  },
+  {
+    "Dataset A": "selection",
+    "Dataset B": "test",
+    "Duplicate Feature Rows": 0,
+    "matching_rows_a": 0,
+    "matching_rows_b": 0,
+    "percentage_a": 0.0,
+    "percentage_b": 0.0
+  }
+]

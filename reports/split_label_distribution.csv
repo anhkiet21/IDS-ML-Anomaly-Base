@@ -1,0 +1,61 @@
+Split,Label,Count
+train,BENIGN,422352
+train,Bot,0
+train,DDoS,0
+train,DoS GoldenEye,0
+train,DoS Hulk,0
+train,DoS Slowhttptest,0
+train,DoS slowloris,0
+train,FTP-Patator,0
+train,Heartbleed,0
+train,Infiltration,0
+train,PortScan,0
+train,SSH-Patator,0
+train,Web Attack – Brute Force,0
+train,Web Attack – Sql Injection,0
+train,Web Attack – XSS,0
+calibration,BENIGN,105730
+calibration,Bot,0
+calibration,DDoS,0
+calibration,DoS GoldenEye,0
+calibration,DoS Hulk,0
+calibration,DoS Slowhttptest,0
+calibration,DoS slowloris,0
+calibration,FTP-Patator,0
+calibration,Heartbleed,0
+calibration,Infiltration,0
+calibration,PortScan,0
+calibration,SSH-Patator,0
+calibration,Web Attack – Brute Force,0
+calibration,Web Attack – Sql Injection,0
+calibration,Web Attack – XSS,0
+selection,BENIGN,1322540
+selection,DoS Hulk,222563
+selection,DoS GoldenEye,10293
+selection,FTP-Patator,7935
+selection,SSH-Patator,5897
+selection,DoS slowloris,5769
+selection,DoS Slowhttptest,5499
+selection,Web Attack – Brute Force,1507
+selection,Web Attack – XSS,652
+selection,Infiltration,36
+selection,Web Attack – Sql Injection,21
+selection,Heartbleed,11
+selection,Bot,0
+selection,DDoS,0
+selection,PortScan,0
+test,BENIGN,411368
+test,PortScan,158804
+test,DDoS,128025
+test,Bot,1956
+test,DoS GoldenEye,0
+test,DoS Hulk,0
+test,DoS Slowhttptest,0
+test,DoS slowloris,0
+test,FTP-Patator,0
+test,Heartbleed,0
+test,Infiltration,0
+test,SSH-Patator,0
+test,Web Attack – Brute Force,0
+test,Web Attack – Sql Injection,0
+test,Web Attack – XSS,0

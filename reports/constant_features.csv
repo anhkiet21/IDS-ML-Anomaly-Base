@@ -1,0 +1,81 @@
+Feature,Unique values,Constant
+Source Port,45225,False
+Destination Port,26982,False
+Protocol,3,False
+Flow Duration,210271,False
+Total Fwd Packets,651,False
+Total Backward Packets,830,False
+Total Length of Fwd Packets,9302,False
+Total Length of Bwd Packets,24678,False
+Fwd Packet Length Max,3590,False
+Fwd Packet Length Min,196,False
+Fwd Packet Length Mean,40337,False
+Fwd Packet Length Std,60449,False
+Bwd Packet Length Max,3858,False
+Bwd Packet Length Min,423,False
+Bwd Packet Length Mean,49408,False
+Bwd Packet Length Std,61796,False
+Flow Bytes/s,286988,False
+Flow Packets/s,228076,False
+Flow IAT Mean,230993,False
+Flow IAT Std,210363,False
+Flow IAT Max,183634,False
+Flow IAT Min,46936,False
+Fwd IAT Total,174607,False
+Fwd IAT Mean,178941,False
+Fwd IAT Std,156899,False
+Fwd IAT Max,147189,False
+Fwd IAT Min,43374,False
+Bwd IAT Total,136071,False
+Bwd IAT Mean,140369,False
+Bwd IAT Std,129793,False
+Bwd IAT Max,117016,False
+Bwd IAT Min,26216,False
+Fwd PSH Flags,2,False
+Bwd PSH Flags,1,True
+Fwd URG Flags,1,True
+Bwd URG Flags,1,True
+Fwd Header Length,1699,False
+Bwd Header Length,1907,False
+Fwd Packets/s,226015,False
+Bwd Packets/s,207195,False
+Min Packet Length,138,False
+Max Packet Length,4384,False
+Packet Length Mean,68709,False
+Packet Length Std,85502,False
+Packet Length Variance,86157,False
+FIN Flag Count,2,False
+SYN Flag Count,2,False
+RST Flag Count,2,False
+PSH Flag Count,2,False
+ACK Flag Count,2,False
+URG Flag Count,2,False
+CWE Flag Count,1,True
+ECE Flag Count,2,False
+Down/Up Ratio,9,False
+Average Packet Size,59361,False
+Avg Fwd Segment Size,32138,False
+Avg Bwd Segment Size,44359,False
+Fwd Header Length.1,1699,False
+Fwd Avg Bytes/Bulk,1,True
+Fwd Avg Packets/Bulk,1,True
+Fwd Avg Bulk Rate,1,True
+Bwd Avg Bytes/Bulk,1,True
+Bwd Avg Packets/Bulk,1,True
+Bwd Avg Bulk Rate,1,True
+Subflow Fwd Packets,651,False
+Subflow Fwd Bytes,9302,False
+Subflow Bwd Packets,830,False
+Subflow Bwd Bytes,24678,False
+Init_Win_bytes_forward,5561,False
+Init_Win_bytes_backward,5577,False
+act_data_pkt_fwd,540,False
+min_seg_size_forward,16,False
+Active Mean,68211,False
+Active Std,42045,False
+Active Max,66446,False
+Active Min,44771,False
+Idle Mean,72162,False
+Idle Std,42642,False
+Idle Max,62171,False
+Idle Min,64236,False

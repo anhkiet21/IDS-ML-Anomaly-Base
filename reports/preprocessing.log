@@ -1,0 +1,17 @@
+2026-10-13 16:08:02,664 INFO Audit Monday-WorkingHours.pcap_ISCX.csv: rows before=529918 after=529918 memory=407014993
+2026-10-13 16:08:11,247 INFO Audit Tuesday-WorkingHours.pcap_ISCX.csv: rows before=445909 after=445909 memory=339862969
+2026-10-13 16:08:24,976 INFO Audit Wednesday-workingHours.pcap_ISCX.csv: rows before=692703 after=692703 memory=527496238
+2026-10-13 16:08:29,499 INFO Audit Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv: rows before=170366 after=170366 memory=130021990
+2026-10-13 16:08:34,518 INFO Audit Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv: rows before=288602 after=288602 memory=219889571
+2026-10-13 16:08:38,166 INFO Audit Friday-WorkingHours-Morning.pcap_ISCX.csv: rows before=191033 after=191033 memory=145657218
+2026-10-13 16:08:42,392 INFO Audit Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv: rows before=225745 after=225745 memory=170960282
+2026-10-13 16:08:47,051 INFO Audit Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv: rows before=286467 after=286467 memory=218100615
+2026-10-13 16:08:50,697 INFO Merge / datatype: rows before=3119345 after=2830743 memory bytes=1902579476
+2026-10-13 16:08:56,865 INFO Actual non finite removal: rows before=2830743 after=2827876 memory bytes=1923327334
+2026-10-13 16:09:12,205 INFO Leakage before feature removal: 1524 shared vectors (sum over pairs)
+2026-10-13 16:11:17,354 INFO Split duplicate/overlap cleanup: rows before=2827876 after=2810958 memory bytes=1529838318
+2026-10-13 16:11:17,815 INFO Split train: rows before=422352 after=422352 memory bytes=276810246
+2026-10-13 16:11:17,817 INFO Split calibration: rows before=105730 after=105730 memory bytes=107734098
+2026-10-13 16:11:17,819 INFO Split selection: rows before=1582723 after=1582723 memory bytes=896448360
+2026-10-13 16:11:17,822 INFO Split test: rows before=700153 after=700153 memory bytes=425155980
+2026-10-13 16:11:49,411 INFO Parquet saved: rows before=2810958 after=2810958 memory bytes=1529838318
